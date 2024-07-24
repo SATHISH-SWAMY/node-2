@@ -5,7 +5,7 @@ const roomRoutes = require('./routes/rooms');
 const bookingRoutes = require('./routes/bookings');
 
 const app = express();
-const PORT = process.env.PORT || 3030;
+const PORT = 3030;
 
 app.use(bodyParser.json());
 
